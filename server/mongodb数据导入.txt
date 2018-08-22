@@ -1,0 +1,3 @@
+mongodb数据库名：vueShopData
+库中表：shopMessage、userMessage
+具体导入方法：https://www.cnblogs.com/qingtianyu2015/p/5968400.html

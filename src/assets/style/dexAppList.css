@@ -1,0 +1,113 @@
+.container{
+    width: 100%;
+    margin: 60px auto;
+    border-radius: 6px;
+    background: #fff;
+    overflow: hidden;
+}
+.shop-head{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.head-left{
+    width: 88%;
+    padding: 10px 20px;
+}
+.head-left>h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 5px;
+}
+.head-left>p{
+    font-size: 12px;
+    color: #d2d2d2;
+}
+.head-right{
+    width: 12%;
+    padding: 10px 20px;
+    line-height: 40px;
+}
+.btn01{
+    margin-right: 15px;
+}
+.btn01, .btn02, .btn03{
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 18px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    color: #888;
+    cursor: pointer;
+    transition: all .3s;
+    user-select: none;
+}
+.btn03{
+    font-size: 15px;
+}
+.btn01:hover, .btn02:hover, .btn03:hover{
+    background-color: #f1f1f1;
+    color: #555;
+}
+.shop-con{
+    width: 100%;
+    overflow: hidden;
+}
+.shopCon-list{
+    display: flex;
+    flex-direction: row;
+    transition: all .5s;
+}
+.shopCon-list>li{
+    width: 25%;
+    padding: 10px 30px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all .3s;
+    padding-bottom: 8px;
+}
+.box-img{
+    overflow: hidden;
+    font-size: 0;
+    margin-bottom: 15px;
+    transition: all .5s;
+}
+.box-img>img{
+    width: 100%;
+    transition: all .4s;
+}
+.shopCon-list>li:hover .box-img{
+    box-shadow: 0 5px 30px 2px rgba(0,0,0,.3); 
+}
+.sp-list>.sel-sp{
+    border: 2px solid #b2b2b2;
+}
+.shop-detail>h5{
+    font-weight: 300;
+    color: #424242;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+.shop-detail>.shop-del{
+    font-size: 12px;
+    color: #b2b2b2;
+    margin: 8px 0;
+}
+.hide-btn{
+    color: #646464;
+    font-size: 12px;
+    margin-bottom: 10px;
+    transition: all .4s;
+}
+.hide-btn>span{
+    transition: all .4s;
+    color: #646464;
+}
+.shopCon-list>li:hover .hide-btn{
+    color: #89bceb;
+}
+.shopCon-list>li:hover .hide-btn>span{
+    margin-left: 5px;
+    color: #89bceb;
+}
